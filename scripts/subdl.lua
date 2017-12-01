@@ -12,7 +12,7 @@ function subdl_load()
     mp.osd_message("Searching subtitles...")
 
     subdl = "/usr/bin/subdl" -- use 'which subdl' to find the path.
-    language = "scc,eng"
+    language = "scc,hrv,bos,eng"
     download = "best-rating" --  Other options: first, most-downloaded
 
     t = {}
